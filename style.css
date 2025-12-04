@@ -1,0 +1,80 @@
+
+header{
+    text-align: center;
+    background-color:rgb(255, 230, 210);
+    padding: 20px;
+    border: 2px solid hsla(0, 59%, 41%, 0.3);
+
+}
+header h1{
+    color: brown;
+}
+header h2{
+    color: chocolate;
+}
+body{
+    background-color:bisque;
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    line-height: 1.5;
+}
+section{
+    max-width: 900px;
+    margin:30px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+    background-color:white;
+}
+section h3{
+    color: brown;
+    font-size: 24px;
+}
+#subtitle{
+    font-size: 18px;
+}
+.skill-category h4{
+    font-size: 22px;
+    color: #6E2B10;
+}
+.skill-category li{
+    font-size: 20px;
+}
+.skill-category h4,ul{
+    margin-left: 20px;
+}
+
+.certificate-gallery{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.certificate-gallery img{
+    padding: 5px;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.1);
+}
+.certificate-gallery img:hover{
+    border: 1px solid brown;
+
+}
+.contact ul{
+    list-style: none;
+}
+
+.contact a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+.projects li{
+    font-size: 20px;
+}
